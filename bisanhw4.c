@@ -5,7 +5,7 @@
 int main(int argc, char** argv){
 
     int x=atoi(argv[1]);
-    malloc(x);
+    void* newBlock= malloc(x);
     return 0;
 
 }
